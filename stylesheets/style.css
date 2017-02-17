@@ -1,0 +1,34 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #243131;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fcfcfc
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#main {
+    width: 200px;
+    height: 350px;
+}
+
+#ayaka {
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #C34242;
+}
+
+a:hover {
+    text-decoration: underline;
+}

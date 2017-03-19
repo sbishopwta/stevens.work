@@ -1,5 +1,5 @@
-body {
 
+body {
     max-width: 400px;
     margin:0 auto;
     font-family: "Apercu-Mono-Pro", Helvetica Neue, Arial, sans-serif;
@@ -10,11 +10,11 @@ body {
     background-color: #F4B6B6;
 }
 
-html {
+/*html {
   border-width: 12px;
   border-style: solid;
   border-color: white;
-}
+}*/
 
 h1 {
     font-size: 28px;

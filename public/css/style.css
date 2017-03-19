@@ -1,9 +1,13 @@
+
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #243131;
+    border-width: medium;
+    border-style: solid;
+    border-color: white;
+    font-family: "Apercu-Mono-Pro", Helvetica Neue, Arial, sans-serif;
+    color: white;
     text-align: center;
     font-size: 14px;
-    background-color: #fcfcfc
+    background-color: #F4B6B6
 }
 
 h1 {
@@ -17,11 +21,6 @@ h2 {
 #main {
     width: 200px;
     height: 350px;
-}
-
-#ayaka {
-    width: 200px;
-    height: 200px;
 }
 
 a {

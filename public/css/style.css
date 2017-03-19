@@ -1,13 +1,21 @@
 
 body {
-    border-width: medium;
+    /*border-width: medium;
     border-style: solid;
-    border-color: white;
+    border-color: white;*/
+    /*border: 15px solid white;*/
     font-family: "Apercu-Mono-Pro", Helvetica Neue, Arial, sans-serif;
     color: white;
     text-align: center;
     font-size: 14px;
     background-color: #F4B6B6
+}
+
+html {
+  /*border: 15px solid white;*/
+  border-width: 12px;
+  border-style: solid;
+  border-color: white;
 }
 
 h1 {
@@ -19,8 +27,8 @@ h2 {
 }
 
 #main {
-    width: 200px;
-    height: 350px;
+    /*width: 200px;
+    height: 350px;*/
 }
 
 a {

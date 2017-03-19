@@ -1,9 +1,19 @@
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #243131;
+
+    max-width: 400px;
+    margin:0 auto;
+    font-family: "Apercu-Mono-Pro", Helvetica Neue, Arial, sans-serif;
+    color: white;
+    padding: 15px;
     text-align: center;
     font-size: 14px;
-    background-color: #fcfcfc
+    background-color: #F4B6B6;
+}
+
+html {
+  border-width: 12px;
+  border-style: solid;
+  border-color: white;
 }
 
 h1 {
@@ -14,19 +24,9 @@ h2 {
     font-size: 20px;
 }
 
-#main {
-    width: 200px;
-    height: 350px;
-}
-
-#ayaka {
-    width: 200px;
-    height: 200px;
-}
-
 a {
     text-decoration: none;
-    color: #C34242;
+    color: #EB9696;
 }
 
 a:hover {

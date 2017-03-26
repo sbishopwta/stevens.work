@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Apercu-Mono-Pro";
+    src: url(../fonts/apercu_mono_pro.otf) format("opentype");
+}
 
 body {
     max-width: 400px;

@@ -3,27 +3,42 @@
     src: url(../fonts/apercu_mono_pro.otf) format("opentype");
 }
 
-body {
+.flex {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+#main {
     margin:0 auto;
     font-family: "Apercu-Mono-Pro", Helvetica Neue, Arial, sans-serif;
     color: white;
-    padding: 15px;
     text-align: center;
     font-size: 14px;
-    background-color: #F4B6B6;
+    padding: 30px;
 }
 
 @media (min-device-width: 769px) {
-  body {
+  #main {
     max-width: 400px;
   }
 }
 
-/*html {
+body {
+  margin: 0;
+  background-color: #F4B6B6;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
   border-width: 12px;
   border-style: solid;
   border-color: white;
-}*/
+}
 
 h1 {
     font-size: 28px;

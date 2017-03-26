@@ -4,7 +4,6 @@
 }
 
 body {
-    max-width: 400px;
     margin:0 auto;
     font-family: "Apercu-Mono-Pro", Helvetica Neue, Arial, sans-serif;
     color: white;
@@ -12,6 +11,12 @@ body {
     text-align: center;
     font-size: 14px;
     background-color: #F4B6B6;
+}
+
+@media (min-device-width: 769px) {
+  body {
+    max-width: 400px;
+  }
 }
 
 /*html {
